@@ -1,5 +1,6 @@
+![TigerXDragon](https://i.ibb.co/XtP134w/Tiger-XDragon.jpg)
 # TigerXDragon
-Toradora! Portable Translation Toolkit
+Toradora! Portable Translation Toolkit<br />
 Created by SH4FS0c13ty
 
 
@@ -25,14 +26,14 @@ This toolkit contains 5 stages decribed below:
 Instructions
 ============
 
-Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use "C:\TigerXDragon\" for example).
-Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.
-Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.
-Extract ISO files with UMDGen into "ISO/Extracted/".
-Copy "ISO/Extracted/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.
-Download the strings (*.po files) from https://toradora.oneskyapp.com/.
-Copy the *.po files in "po-files/" folder.
-Start the stage you want, if you never used this toolkit before, follow the numbers.
+Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use "C:\TigerXDragon\" for example).<br />
+Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.<br />
+Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.<br />
+Extract ISO files with UMDGen into "ISO\/Extracted/".<br />
+Copy "ISO/Extracted/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.<br />
+Download the strings (*.po files) from https://toradora.oneskyapp.com/.<br />
+Copy the *.po files in "po-files/" folder.<br />
+Start the stage you want, if you never used this toolkit before, follow the numbers.<br />
 
 
 
@@ -40,24 +41,24 @@ Start the stage you want, if you never used this toolkit before, follow the numb
 License
 =======
 
-MIT License (https://opensource.org/licenses/mit-license.php)
+MIT License (https://opensource.org/licenses/mit-license.php)<br />
 
-Copyright (c) 2019 SH4FS0c13ty
+Copyright (c) 2019 SH4FS0c13ty<br />
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
-associated documentation files (the "Software"), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and<br />
+associated documentation files (the "Software"), to deal in the Software without restriction,<br />
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,<br />
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,<br />
+subject to the following conditions:<br />
 
-The above copyright notice and this permission notice shall be included in all copies or substantial
-portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial<br />
+portions of the Software.<br />
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT<br />
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.<br />
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,<br />
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE<br />
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
 
 
 
@@ -65,8 +66,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Credits
 =======
 
-Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)
-Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).
-Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).
-Thanks to 123321mario for his help (https://twitter.com/123321mario).
-Thanks to the french translation team of Toradora! Portable (https://toradora.oneskyapp.com/).
+Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)<br />
+Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).<br />
+Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).<br />
+Thanks to 123321mario for his help (https://twitter.com/123321mario).<br />
+Thanks to the french translation team of Toradora! Portable (https://toradora.oneskyapp.com/).<br />
