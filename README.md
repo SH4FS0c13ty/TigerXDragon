@@ -4,8 +4,7 @@ Toradora! Portable Translation Toolkit<br />
 Created by SH4FS0c13ty
 
 
-Requirements
-============
+###Requirements
 
  - Windows 10
  - .Net Framework 3.5
@@ -23,8 +22,7 @@ This toolkit contains 5 stages decribed below:
 
 
 
-Instructions
-============
+###Instructions
 
 Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use "C:\TigerXDragon\" for example).<br />
 Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.<br />
@@ -38,8 +36,7 @@ Start the stage you want, if you never used this toolkit before, follow the numb
 
 
 
-License
-=======
+###License
 
 MIT License (https://opensource.org/licenses/mit-license.php)<br />
 
@@ -63,8 +60,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
 
 
 
-Credits
-=======
+###Credits
 
 Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)<br />
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).<br />
