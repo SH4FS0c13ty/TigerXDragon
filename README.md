@@ -39,7 +39,7 @@ Go on the right blank space, right click and go to "Add > Existing Folder...".<b
 Select the "ISO/Extracted/NoLabel/PSP_GAME/" folder and click on the "OK" button.<br />
 Go on the right blank space, right click and go to "Add > Existing File(s)...".<br />
 Select the "ISO/Extracted/NoLabel/PSP_GAME/UMD_DATA.bin" file and click on the "OK" button.<br />
-Click on the "Save" button, select "Uncompressed (*iso)" and export the ISO file wherever you want.<br />
+Click on the "Save" button, select "Uncompressed (*.iso)" and export the ISO file wherever you want.<br />
 
 
 
