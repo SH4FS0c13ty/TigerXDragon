@@ -9,15 +9,15 @@ Created by SH4FS0c13ty
  - Windows 10
  - .Net Framework 3.5
  - .Net Framework 4.5
- - Windows Subsystem for Linux with translate-toolkit, python3 and openjdk-11-jdk
+ - Windows Subsystem for Linux with translate-toolkit, python3 and openjdk-8-jdk
 
 
 This toolkit contains 5 stages decribed below:
- - Stage 0: Script to install everything that is required by the toolkit (the requirements above).
+ - Stage 0: Script to install everything that is required by the toolkit (the requirements above). [RUN AS ADMIN]
  - Stage 1: Script to extract .dat files with the DatWorker program.
  - Stage 2: Script to extract the .dat files with Gpda.jar and build the strings.
  - Stage 3: Script to generate the seekmap.dat file and repack everything.
- - Stage 4: Script to delete every non-needed file in the toolkit's directory.
+ - Stage 4: Script to delete every non-needed file in the toolkit's directory. [RUN AS ADMIN]
 
 
 
@@ -28,10 +28,18 @@ Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use
 Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.<br />
 Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.<br />
 Extract ISO files with UMDGen into "ISO\/Extracted/".<br />
-Copy "ISO/Extracted/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.<br />
+Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.<br />
 Download the strings (*.po files) from https://toradora.oneskyapp.com/.<br />
 Copy the *.po files in "po-files/" folder.<br />
 Start the stage you want, if you never used this toolkit before, follow the numbers.<br />
+<br />
+To repack the ISO file, copy "export/resource.dat" and "export/first.dat" to "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/" folder.<br />
+Start UMDGen and click on the "New" button.<br />
+Go on the right blank space, right click and go to "Add > Existing Folder...".<br />
+Select the "ISO/Extracted/NoLabel/PSP_GAME/" folder and click on the "OK" button.<br />
+Go on the right blank space, right click and go to "Add > Existing File(s)...".<br />
+Select the "ISO/Extracted/NoLabel/PSP_GAME/UMD_DATA.bin" file and click on the "OK" button.<br />
+Click on the "Save" button, select "Uncompressed (*iso)" and export the ISO file wherever you want.<br />
 
 
 
