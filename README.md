@@ -2,7 +2,7 @@
 # TigerXDragon
 Toradora! Portable Translation Toolkit<br />
 Created by SH4FS0c13ty
-
+<br />
 
 ### Requirements
 
@@ -18,7 +18,7 @@ This toolkit contains 5 stages decribed below:
  - Stage 2: Script to extract the .dat files with Gpda.jar and build the strings.
  - Stage 3: Script to generate the seekmap.dat file and repack everything.
  - Stage 4: Script to delete every non-needed file in the toolkit's directory.
-
+<br />
 
 
 
@@ -40,7 +40,7 @@ Select the "ISO/Extracted/NoLabel/PSP_GAME/" folder and click on the "OK" button
 Go on the right blank space, right click and go to "Add > Existing File(s)...".<br />
 Select the "ISO/Extracted/NoLabel/PSP_GAME/UMD_DATA.bin" file and click on the "OK" button.<br />
 Click on the "Save" button, select "Uncompressed (*.iso)" and export the ISO file wherever you want.<br />
-
+<br />
 
 
 
@@ -84,7 +84,7 @@ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE A
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,<br />
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE<br />
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
-
+<br />
 
 
 
