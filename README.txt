@@ -36,7 +36,7 @@ Requirements
 This toolkit contains 5 stages decribed below:
  - Stage 0: Script to install everything that is required by the toolkit (the requirements above). [RUN AS ADMIN]
  - Stage 1: Script to extract .dat files with the DatWorker program.
- - Stage 2: Script to extract the .dat files with Gpda.jar and build the strings.
+ - Stage 2: Script to extract .obj files, build the strings and repack .obj files.
  - Stage 3: Script to generate the seekmap.dat file and repack everything.
  - Stage 4: Script to delete every non-needed file in the toolkit's directory.
 
@@ -51,12 +51,12 @@ Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte
 Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.
 Extract ISO files with UMDGen into "ISO/Extracted/".
 Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.
-Download the strings (*.po files) from https://toradora.oneskyapp.com/.
-Copy the *.po files in "po-files/" folder.
+Download the strings (*.po files) from https://traduction.toradora-fr.tk/.
+Copy the .po files in "po-files/" folder.
 Start the stage you want, if you never used this toolkit before, follow the numbers.
 
 
-To repack the ISO file, copy "export/resource.dat" and "export/first.dat" to "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/" folder.
+To repack the ISO file, copy the "export/PSP_GAME/" folder to the "ISO/Extracted/NoLabel/" folder.
 Start UMDGen and click on the "New" button.
 Go on the right blank space, right click and go to "Add > Existing Folder...".
 Select the "ISO/Extracted/NoLabel/PSP_GAME/" folder and click on the "OK" button.
@@ -79,11 +79,11 @@ specifications of the machine used to test the toolkit:
  - Network speed: 90 Mb/s Down
 
 
-Stage 0: [4min 30s] [20min 50s]
+Stage 0: [3min] [7min]
 Stage 1: [19min 20s]
-Stage 2: [18min 30s]
-Stage 3: [15min 50s]
-Stage 4: [2min 15s]
+Stage 2: [5min 10s]
+Stage 3: [12min 50s]
+Stage 4: [20s]
 
 
 
@@ -122,4 +122,4 @@ Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github:
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).
 Thanks to 123321mario for his help (https://twitter.com/123321mario).
-Thanks to the french translation team of Toradora! Portable (https://toradora.oneskyapp.com/).
+Thanks to the french translation team of Toradora! Portable (https://traduction.toradora-fr.tk/).

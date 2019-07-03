@@ -16,7 +16,7 @@ Created by SH4FS0c13ty
 This toolkit contains 5 stages decribed below:
  - Stage 0: Script to install everything that is required by the toolkit (the requirements above). [RUN AS ADMIN]
  - Stage 1: Script to extract .dat files with the DatWorker program.
- - Stage 2: Script to extract the .dat files with Gpda.jar and build the strings.
+ - Stage 2: Script to extract .obj files, build the strings and repack .obj files.
  - Stage 3: Script to generate the seekmap.dat file and repack everything.
  - Stage 4: Script to delete every non-needed file in the toolkit's directory.
 <br />
@@ -30,17 +30,17 @@ Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte
 Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.<br />
 Extract ISO files with UMDGen into "ISO\/Extracted/".<br />
 Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.<br />
-Download the strings (*.po files) from https://toradora.oneskyapp.com/.<br />
-Copy the *.po files in "po-files/" folder.<br />
+Download the strings (.po files) from https://traduction.toradora-fr.tk/.<br />
+Copy the .po files in "po-files/" folder.<br />
 Start the stage you want, if you never used this toolkit before, follow the numbers.<br />
 <br />
-To repack the ISO file, copy "export/resource.dat" and "export/first.dat" to "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/" folder.<br />
+To repack the ISO file, copy the "export/PSP_GAME/" folder to the "ISO/Extracted/NoLabel/" folder.<br />
 Start UMDGen and click on the "New" button.<br />
 Go on the right blank space, right click and go to "Add > Existing Folder...".<br />
 Select the "ISO/Extracted/NoLabel/PSP_GAME/" folder and click on the "OK" button.<br />
 Go on the right blank space, right click and go to "Add > Existing File(s)...".<br />
 Select the "ISO/Extracted/NoLabel/PSP_GAME/UMD_DATA.bin" file and click on the "OK" button.<br />
-Click on the "Save" button, select "Uncompressed (*.iso)" and export the ISO file wherever you want.<br />
+Click on the "Save" button, select "Uncompressed (\*.iso)" and export the ISO file wherever you want.<br />
 <br />
 
 
@@ -56,11 +56,11 @@ specifications of the machine used to test the toolkit:<br />
  - Network speed: 90 Mb/s Down
 <br />
 
-Stage 0: [4min 30s] [20min 50s]<br />
+Stage 0: [3min] [7min]<br />
 Stage 1: [19min 20s]<br />
-Stage 2: [18min 30s]<br />
-Stage 3: [15min 50s]<br />
-Stage 4: [2min 15s]<br />
+Stage 2: [5min 10s]<br />
+Stage 3: [12min 50s]<br />
+Stage 4: [20s]<br />
 <br />
 
 
@@ -97,4 +97,4 @@ Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github:
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).<br />
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).<br />
 Thanks to 123321mario for his help (https://twitter.com/123321mario).<br />
-Thanks to the french translation team of Toradora! Portable (https://toradora.oneskyapp.com/).<br />
+Thanks to the french translation team of Toradora! Portable (https://traduction.toradora-fr.tk/).<br />

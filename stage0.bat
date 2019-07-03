@@ -34,11 +34,11 @@ curl.exe -L -o C:\debian.appx https://aka.ms/wsl-debian-gnulinux
 powershell.exe -Command "Rename-Item C:\debian.appx C:\debian.zip"
 powershell.exe -Command "Expand-Archive C:\debian.zip C:\debian"
 setx path "%path%;c:\debian"
-C:\debian\debian.exe config --default-user root
+C:\debian\debian.exe install --root
 echo Updating and upgrading Debian packages ...
 bash -c "apt update"
 bash -c "apt -y full-upgrade"
 echo Installing requirements ...
-bash -c "apt -y install translate-toolkit openjdk-8-jdk"
+bash -c "apt -y install translate-toolkit sed"
 echo Done!
 pause

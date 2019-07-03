@@ -18,7 +18,7 @@ if /i "%start%" NEQ "y" exit
 echo Deleting non-needed files ...
 cd data\obj\
 del /S /Q /F *.*
-cd ..\string\
+cd ..\strings\
 del /S /Q /F *.*
 cd ../..
 rmdir /S /Q DatWorker\first\
