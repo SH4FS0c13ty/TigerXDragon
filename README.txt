@@ -30,7 +30,7 @@ Requirements
  - Windows 10
  - .Net Framework 3.5
  - .Net Framework 4.5
- - Windows Subsystem for Linux with translate-toolkit, python3 and openjdk-8-jdk
+ - Windows Subsystem for Linux with translate-toolkit and sed
 
 
 This toolkit contains 5 stages decribed below:
@@ -80,7 +80,7 @@ specifications of the machine used to test the toolkit:
 
 
 Stage 0: [4min 30s] [20min 50s]
-Stage 1: [22min 40s]
+Stage 1: [19min 20s]
 Stage 2: [18min 30s]
 Stage 3: [15min 50s]
 Stage 4: [2min 15s]
@@ -116,7 +116,9 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Credits
 =======
 
+Check the project website to know more about it: https://toradora-fr.tk
 Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)
+
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).
 Thanks to 123321mario for his help (https://twitter.com/123321mario).

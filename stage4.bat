@@ -16,25 +16,19 @@ echo.
 set /p start=Start stage 4 (y/n)? 
 if /i "%start%" NEQ "y" exit
 echo Deleting non-needed files ...
-cd data\
+cd data\obj\
 del /S /Q /F *.*
-cd ..\DatWorker\resource\
+cd ..\string\
 del /S /Q /F *.*
-cd ..\first\
-del /S /Q /F *.*
-cd ..
-rmdir /S /Q first\
-rmdir /S /Q resource\
+cd ../..
+rmdir /S /Q DatWorker\first\
+rmdir /S /Q DatWorker\resource\
+cd DatWorker\
 del /S /Q /F *.dat
 del /S /Q /F *.lst
 del /S /Q /F seekmap*.*
-cd ..\out\
+cd ..\export\
 del /S /Q /F *.*
-rmdir /S /Q first\
-rmdir /S /Q resource\
-cd ..\source\
-del /S /Q /F *.*
-rmdir /S /Q first\
-rmdir /S /Q resource\
+rmdir /S /Q PSP_GAME\
 echo Done!
 pause

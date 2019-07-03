@@ -27,7 +27,7 @@ echo Please reboot when prompted and re-execute stage 0
 DISM /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux
 echo.
 set /p start=Did your computer reboot (y/n)? 
-if /i "%start%" NEQ "y" shutdown /r /t 1
+if /i "%start%" NEQ "y" shutdown /r /t 0
 echo Installing Debian on Windows ...
 echo.
 curl.exe -L -o C:\debian.appx https://aka.ms/wsl-debian-gnulinux
@@ -39,6 +39,6 @@ echo Updating and upgrading Debian packages ...
 bash -c "apt update"
 bash -c "apt -y full-upgrade"
 echo Installing requirements ...
-bash -c "apt -y install translate-toolkit python3 openjdk-8-jdk"
+bash -c "apt -y install translate-toolkit openjdk-8-jdk"
 echo Done!
 pause

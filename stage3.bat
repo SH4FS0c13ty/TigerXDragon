@@ -32,8 +32,11 @@ copy %dir%\DatWorker\Workspace\seekmap.dat %dir%\DatWorker\first\seekmap.dat
 cd ..
 %dir%\DatWorker\DatWorker.exe %dir%\DatWorker\first.dat-LstOrder.lst
 cd ..
-copy %dir%\DatWorker\resource.dat %dir%\export\resource.dat
-copy %dir%\DatWorker\first.dat %dir%\export\first.dat
+mkdir %dir%\export\PSP_GAME\
+mkdir %dir%\export\PSP_GAME\USRDIR\
+copy %dir%\DatWorker\resource.dat %dir%\export\PSP_GAME\USRDIR\resource.dat
+copy %dir%\DatWorker\first.dat %dir%\export\PSP_GAME\USRDIR\first.dat
+copy %dir%\DatWorker\Workspace\PARAM.SFO %dir%\export\PSP_GAME\PARAM.SFO
 echo Files exported in export\ folder.
 echo Done!
 pause
