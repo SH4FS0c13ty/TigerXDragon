@@ -96,5 +96,5 @@ Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github:
 <br />
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).<br />
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).<br />
-Thanks to 123321mario for his help (https://twitter.com/123321mario).<br />
+Thanks to 123321mario for his help (http://123321mario.tk/).<br />
 Thanks to the french translation team of Toradora! Portable (https://traduction.toradora-fr.tk/).<br />
