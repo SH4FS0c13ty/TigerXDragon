@@ -52,7 +52,8 @@ Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.
 Extract ISO files with UMDGen into "ISO/Extracted/".
 Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.
 Download the strings (*.po files) from https://traduction.toradora-fr.tk/.
-Copy the .po files in "po-files/" folder.
+Extract the archive in the "po-files/" folder.
+Execute "PO_Renamer/PO_Renamer.bat" to organize the .po files in order to use them with TigerXDragon.
 Start the stage you want, if you never used this toolkit before, follow the numbers.
 
 
