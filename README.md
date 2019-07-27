@@ -93,7 +93,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br />
 ### Credits
 
 Check the project website to know more about it: https://toradora-fr.tk<br />
-Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)<br />
+Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: SH4FS0c13ty#1562, Github: https://github.com/SH4FS0c13ty)<br />
 <br />
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).<br />
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).<br />
