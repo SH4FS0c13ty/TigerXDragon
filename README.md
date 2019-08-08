@@ -26,7 +26,7 @@ This toolkit contains 5 stages decribed below:
 ### Instructions
 
 Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use "C:\TigerXDragon\" for example).<br />
-Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.<br />
+Download the Toradora! Portable ISO EN version (find the JP version and apply the EN patch from http://toradora.xyz.is/).<br />
 Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.<br />
 Extract ISO files with UMDGen into "ISO\/Extracted/".<br />
 Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.<br />
