@@ -47,7 +47,7 @@ Instructions
 ============
 
 Do NOT copy the TigerXDragon toolkit in a path that contains spaces (you can use "C:\TigerXDragon\" for example).
-Download the Toradora! Portable ISO from https://mega.nz/#!WkIBTa5S!gGzJt54CXdte0yodkR4UzRvsEQhUqyeqw3MUruXC7mw.
+Download the Toradora! Portable ISO EN version (find the JP version and apply the EN patch from http://toradora.xyz.is/).
 Copy the "Toradora_Portable[EN].iso" file to the "ISO/" folder.
 Extract ISO files with UMDGen into "ISO/Extracted/".
 Copy "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/resource.dat" and "ISO/Extracted/NoLabel/PSP_GAME/USRDIR/first.dat" to "dat-files/" folder.
@@ -118,7 +118,7 @@ Credits
 =======
 
 Check the project website to know more about it: https://toradora-fr.tk
-Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: Le Panda Roux#1562, Github: https://github.com/SH4FS0c13ty)
+Author: SH4FS0c13ty (Twitter: @SH4FS0c13ty, Discord: SH4FS0c13ty#1562, Github: https://github.com/SH4FS0c13ty)
 
 Thanks to xyz for the "taiga-aisaka" project (https://github.com/xyzz/taiga-aisaka).
 Thanks to marcussacana for the "DatWorker" project (https://github.com/marcussacana/Specific-Games/tree/master/Stuff's).
