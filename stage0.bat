@@ -23,7 +23,10 @@ echo Installing .Net Framework 4.0 ...
 DISM /online /enable-feature /featurename:NetFx4-AdvSrvs
 echo.
 set /p start=Do you have WSL with Ubuntu already installed (y/n)?
-if /i "%start%" NEQ "y" wsl --install; echo Installing WSL with Ubuntu...
+if /i "%start%" NEQ "y" (
+echo Installing WSL with Ubuntu...
+wsl --install
+)
 echo.
 set /p start=Did your computer reboot (y/n)?
 if /i "%start%" NEQ "y" shutdown /r /t 0
