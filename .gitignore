@@ -1,2 +1,20 @@
 
 *.iso
+*.dat
+*.obj
+*.objinv
+*.lst
+*.gz
+*.PNG
+*.tmp
+*.adx
+*.ahx
+*.gim
+*.fgeo2
+*.fmot
+*.fskl
+*.csv
+*.fmdl
+*.vol
+*.aim
+*.txt
