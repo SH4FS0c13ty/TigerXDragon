@@ -30,7 +30,7 @@ if /i "%start%" NEQ "y" shutdown /r /t 0
 echo.
 C:\debian\debian.exe install --root
 echo Updating and upgrading Ubuntu packages ...
-bash -c "apt update"
+bash -c "sudo apt update"
 bash -c "sudo apt -y full-upgrade"
 echo Installing requirements ...
 bash -c "sudo apt -y install translate-toolkit sed"
