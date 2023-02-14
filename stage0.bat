@@ -28,7 +28,6 @@ echo.
 set /p start=Did your computer reboot (y/n)?
 if /i "%start%" NEQ "y" shutdown /r /t 0
 echo.
-C:\debian\debian.exe install --root
 echo Updating and upgrading Ubuntu packages ...
 bash -c "sudo apt update"
 bash -c "sudo apt -y full-upgrade"
