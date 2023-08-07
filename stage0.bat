@@ -22,23 +22,19 @@ echo.
 echo Installing .Net Framework 4.0 ...
 DISM /online /enable-feature /featurename:NetFx4-AdvSrvs
 echo.
-echo Enabling Windows Subsystem for Linux ...
-echo Please reboot when prompted and re-execute stage 0
-DISM /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux
+set /p start=Do you have WSL with Ubuntu already installed (y/n)?
+if /i "%start%" NEQ "y" (
+echo Installing WSL with Ubuntu...
+wsl --install
+)
 echo.
-set /p start=Did your computer reboot (y/n)? 
+set /p start=Did your computer reboot (y/n)?
 if /i "%start%" NEQ "y" shutdown /r /t 0
-echo Installing Debian on Windows ...
 echo.
-curl.exe -L -o C:\debian.appx https://aka.ms/wsl-debian-gnulinux
-powershell.exe -Command "Rename-Item C:\debian.appx C:\debian.zip"
-powershell.exe -Command "Expand-Archive C:\debian.zip C:\debian"
-setx path "%path%;c:\debian"
-C:\debian\debian.exe install --root
-echo Updating and upgrading Debian packages ...
-bash -c "apt update"
-bash -c "apt -y full-upgrade"
+echo Updating and upgrading Ubuntu packages ...
+bash -c "sudo apt update"
+bash -c "sudo apt -y full-upgrade"
 echo Installing requirements ...
-bash -c "apt -y install translate-toolkit sed"
+bash -c "sudo apt -y install translate-toolkit sed"
 echo Done!
 pause
